@@ -23,9 +23,9 @@ function prompt_skwp_precmd {
   fi
 
   # Get ruby information
-  if (( $+functions[ruby-info] )); then
-    ruby-info
-  fi
+#  if (( $+functions[ruby-info] )); then
+#    ruby-info
+#  fi
 }
 
 function prompt_skwp_setup {
